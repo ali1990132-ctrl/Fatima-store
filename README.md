@@ -1,105 +1,33 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#060712">
-<title>فاطمة علي | المتجر الرقمي</title>
-<style>
-:root{--bg:#050611;--p:#0c0e19;--p2:#121526;--w:#f7f7fb;--m:#9da4b8;--v:#8b5cf6;--pk:#ec4899;--g:#20d875;--ln:#fff1}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--w);font-family:Tahoma,Arial,sans-serif}a{text-decoration:none;color:inherit}button{font:inherit}
-body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(circle at 10% 5%,#8b5cf630,transparent 25%),radial-gradient(circle at 90% 30%,#ec489922,transparent 28%)}
-.app{max-width:1180px;margin:auto;padding-bottom:100px}.top{height:72px;position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:10px 4%;background:#060712df;backdrop-filter:blur(20px);border-bottom:1px solid var(--ln)}
-.brand{display:flex;align-items:center;gap:10px;font-weight:900}.logo{width:44px;height:44px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(135deg,var(--v),var(--pk));font-size:22px;box-shadow:0 0 30px #8b5cf655}.top a{width:43px;height:43px;border:1px solid var(--ln);border-radius:14px;display:grid;place-items:center}
-.hero{padding:28px 4% 10px}.heroBox{min-height:590px;padding:35px;border:1px solid #fff2;border-radius:32px;overflow:hidden;background:linear-gradient(135deg,#18142bdd,#080912ef);box-shadow:0 30px 100px #0009}.heroGrid{display:grid;grid-template-columns:1.05fr .95fr;gap:25px;align-items:center}.eyebrow{display:inline-block;padding:10px 14px;border-radius:99px;border:1px solid #a78bfa55;background:#8b5cf618;color:#eadfff;font-size:13px;font-weight:900}.hero h1{font-size:clamp(43px,7vw,78px);line-height:1.03;margin:20px 0 15px;letter-spacing:-2px}.grad{background:linear-gradient(90deg,#c084fc,#f472b6,#60a5fa);-webkit-background-clip:text;color:transparent}.hero p{max-width:600px;color:#b9bfce;line-height:2;font-size:17px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{min-height:49px;padding:13px 19px;border-radius:15px;border:1px solid var(--ln);display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:900}.primary{background:linear-gradient(100deg,#7c3aed,#db2777)}.secondary{background:#ffffff08}.music{background:#20d87512;color:#a8ffd0;border-color:#20d87544}
-.showcase{height:450px;position:relative;display:grid;place-items:center}.orbit{position:absolute;width:320px;height:320px;border:1px solid #a78bfa44;border-radius:50%;box-shadow:0 0 80px #8b5cf622;animation:spin 18s linear infinite}.card{position:absolute;width:205px;height:265px;border-radius:24px;overflow:hidden;border:1px solid #fff3;background:#10121d;box-shadow:0 25px 60px #000a}.card img{width:100%;height:100%;object-fit:cover;opacity:.8}.card:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#050611)}.txt{position:absolute;z-index:2;right:15px;left:15px;bottom:15px;font-weight:900}.txt small{display:block;color:#c0c3cf;margin-top:5px;font-weight:400}.c1{transform:translate(-110px,15px) rotate(-8deg);animation:f1 5s ease-in-out infinite}.c2{transform:translate(0,-45px) scale(1.04);z-index:3;animation:f2 5.5s ease-in-out infinite}.c3{transform:translate(110px,15px) rotate(8deg);animation:f3 6s ease-in-out infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes f1{50%{transform:translate(-110px,0) rotate(-5deg)}}@keyframes f2{50%{transform:translate(0,-60px) scale(1.07)}}@keyframes f3{50%{transform:translate(110px,0) rotate(5deg)}}
-.sec{padding:20px 4%}.head{margin-bottom:15px}.head h2{margin:0;font-size:27px}.head p{margin:6px 0;color:var(--m);font-size:13px}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.service,.product,.trust div{border:1px solid var(--ln);background:#ffffff07;border-radius:21px}.service{padding:19px;min-height:145px}.ico{font-size:30px}.service h3{margin:10px 0 7px}.service p,.product p{color:var(--m);font-size:13px;line-height:1.8;margin:0}.products{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.product{padding:20px;background:linear-gradient(145deg,#121522,#090a12)}.ph{display:flex;justify-content:space-between;align-items:start}.pi{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--v),var(--pk));font-weight:900}.tag{font-size:10px;padding:7px 10px;border-radius:99px;background:#fff0;border:1px solid var(--ln)}.product h3{margin:14px 0 7px;font-size:21px}.row{display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid var(--ln);font-size:13px}.row strong{color:#c8acff}.order{display:block;text-align:center;background:var(--g);color:#03150a;padding:12px;border-radius:13px;font-weight:900;margin-top:10px}.chips{display:flex;gap:10px;overflow:auto}.chip{flex:0 0 auto;padding:12px 16px;border:1px solid var(--ln);border-radius:15px;background:#ffffff07;font-weight:800}.media{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.media div{height:210px;position:relative;overflow:hidden;border-radius:22px;border:1px solid var(--ln)}.media img{width:100%;height:100%;object-fit:cover}.media span{position:absolute;bottom:15px;right:15px;font-weight:900;font-size:18px;text-shadow:0 2px 10px #000}.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.trust div{text-align:center;padding:17px}.trust b{display:block;font-size:24px}.trust span{font-size:12px;color:var(--m)}
-.contact{margin:25px 4%;padding:24px;border-radius:24px;border:1px solid #20d87544;background:#20d8750c}.contactRow{display:flex;align-items:center;justify-content:space-between;gap:15px}.contact h2{margin:0 0 6px}.contact p{margin:0;color:var(--m)}.wa{background:var(--g);color:#03150a;padding:14px 20px;border-radius:15px;font-weight:900;white-space:nowrap}.footer{text-align:center;color:#777d8e;font-size:12px;padding:22px}.footer b{color:#d5c6ff}
-.nav{position:fixed;z-index:30;bottom:12px;left:50%;transform:translateX(-50%);width:min(650px,94%);height:65px;border:1px solid #fff2;border-radius:23px;background:#080912ee;backdrop-filter:blur(20px);display:flex;justify-content:space-around;align-items:center}.nav a{font-size:10px;color:#9da2b1;text-align:center}.nav a span{display:block;font-size:21px;margin-bottom:3px}.nav .active{color:#c9a7ff}.active span{width:43px;height:43px;margin:-18px auto 3px;display:grid!important;place-items:center;border-radius:50%;background:linear-gradient(135deg,var(--v),var(--pk));color:#fff}
-.musicPlayer{position:fixed;z-index:40;bottom:88px;left:50%;transform:translateX(-50%);width:min(390px,90%);padding:10px;border:1px solid #fff2;border-radius:17px;background:#0b0d18ee;backdrop-filter:blur(20px);display:none;align-items:center;gap:10px}.musicPlayer.show{display:flex}.disc{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--v),var(--pk));animation:spin 4s linear infinite}.musicPlayer small{display:block;color:var(--m);margin-top:3px}.stop{margin-right:auto;border:0;border-radius:10px;padding:8px 10px;background:#fff1;color:#fff}
-@media(max-width:900px){.heroGrid{grid-template-columns:1fr}.services{grid-template-columns:repeat(2,1fr)}.trust{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.heroBox{padding:23px}.hero h1{font-size:45px}.hero p{font-size:14px}.actions .btn{width:100%}.showcase{height:360px;transform:scale(.86)}.services,.products{grid-template-columns:1fr}.media{grid-template-columns:1fr}.media div{height:190px}.contactRow{flex-direction:column;text-align:center}.wa{width:100%;text-align:center}}
-</style>
-</head>
-<body>
-<div class="app">
+<!-- مشغل الموسيقى -->
+<div class="music-player">
+  <button id="musicBtn" onclick="toggleMusic()">🔊 تشغيل الموسيقى</button>
 
-<header class="top">
-  <div class="brand"><div class="logo">ف</div><span>فاطمة علي</span></div>
-  <a href="https://wa.me/9647711608207" target="_blank">◉</a>
-</header>
-
-<section class="hero">
-<div class="heroBox"><div class="heroGrid">
-<div>
-  <div class="eyebrow">✨ متجر عصري • شفاف • مصمم للموبايل</div>
-  <h1>كل عالمك<br><span class="grad">الترفيهي</span><br>بلمسة واحدة</h1>
-  <p>أهلاً بك في متجر <b>فاطمة علي</b>، منصة تجمع الاشتراكات والمشغلات والألعاب والبطاقات والخدمات الرقمية في تجربة حديثة وسريعة.</p>
-  <div class="actions">
-    <a class="btn primary" href="#services">استكشف الخدمات ↓</a>
-    <a class="btn secondary" href="https://wa.me/9647711608207?text=السلام%20عليكم%20أريد%20الاستفسار%20عن%20الخدمات" target="_blank">تواصل معنا 💬</a>
-    <button class="btn music" id="musicBtn">♫ تشغيل الموسيقى</button>
-  </div>
+  <iframe
+    id="musicFrame"
+    width="0"
+    height="0"
+    src="https://www.youtube.com/embed/j9zuCKcYzhk?autoplay=0&loop=1&playlist=j9zuCKcYzhk"
+    title="Music"
+    allow="autoplay">
+  </iframe>
 </div>
-<div class="showcase">
-  <div class="orbit"></div>
-  <div class="card c1"><img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=700&q=80"><div class="txt">IPTV<small>FHD / 4K</small></div></div>
-  <div class="card c2"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=700&q=80"><div class="txt">أفلام ومسلسلات<small>ترفيه متجدد</small></div></div>
-  <div class="card c3"><img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=700&q=80"><div class="txt">رياضة<small>عيش الحماس</small></div></div>
-</div>
-</div></div>
-</section>
 
-<section class="sec" id="services"><div class="head"><h2>الخدمات</h2><p>كل ما يحتاجه الزبون في مكان واحد</p></div>
-<div class="services">
-<div class="service"><div class="ico">📺</div><h3>IPTV والمشغلات</h3><p>MAX TV PRO، BEST 4K، TIGER وغيرها.</p></div>
-<div class="service"><div class="ico">⚽</div><h3>الرياضة</h3><p>TOD والقنوات والمحتوى الرياضي حسب المتوفر.</p></div>
-<div class="service"><div class="ico">🎮</div><h3>شحن الألعاب</h3><p>PUBG، Free Fire، eFootball، يلا لودو.</p></div>
-<div class="service"><div class="ico">💳</div><h3>البطاقات والمحافظ</h3><p>Baly، Zain Cash، AsiaPay، FastPay.</p></div>
-<div class="service"><div class="ico">🎁</div><h3>TikTok Coins</h3><p>شحن العملات الرقمية حسب الطلب.</p></div>
-<div class="service"><div class="ico">📱</div><h3>السوشيال ميديا</h3><p>Facebook، Instagram، TikTok، YouTube، Telegram.</p></div>
-<div class="service"><div class="ico">🍎</div><h3>Apple / Google</h3><p>بطاقات المتاجر الرقمية حسب الفئة.</p></div>
-<div class="service"><div class="ico">🛡️</div><h3>دعم فني</h3><p>مساعدة في اختيار الخدمة والتفعيل.</p></div>
-</div></section>
-
-<section class="sec"><div class="head"><h2>🔥 الأكثر طلباً</h2><p>اشتراكات مميزة</p></div><div class="products">
-<article class="product"><div class="ph"><div class="pi">4K</div><span class="tag">ULTRA HD</span></div><h3>BEST 4K</h3><p>قنوات رياضية وترفيهية ومكتبة متنوعة.</p><div class="row"><span>شهر</span><strong>5,000 د.ع</strong></div><div class="row"><span>3 أشهر</span><strong>10,000 د.ع</strong></div><div class="row"><span>سنة</span><strong>25,000 د.ع</strong></div><a class="order" href="https://wa.me/9647711608207?text=أريد%20BEST%204K" target="_blank">اطلب عبر واتساب</a></article>
-<article class="product"><div class="ph"><div class="pi">M</div><span class="tag">⭐ RECOMMENDED</span></div><h3>MAX TV PRO</h3><p>أفلام ومسلسلات وقنوات رياضية وترفيهية.</p><div class="row"><span>شهر</span><strong>5,000 د.ع</strong></div><div class="row"><span>3 أشهر</span><strong>10,000 د.ع</strong></div><div class="row"><span>سنة</span><strong>25,000 د.ع</strong></div><a class="order" href="https://wa.me/9647711608207?text=أريد%20MAX%20TV%20PRO" target="_blank">اطلب عبر واتساب</a></article>
-<article class="product"><div class="ph"><div class="pi">T</div><span class="tag">PREMIUM</span></div><h3>TIGER OTT PLATINUM</h3><p>يدعم الموبايل والحاسبة والشاشات الذكية.</p><div class="row"><span>شهر</span><strong>3,000 د.ع</strong></div><div class="row"><span>سنة</span><strong>17,500 د.ع</strong></div><a class="order" href="https://wa.me/9647711608207?text=أريد%20TIGER%20OTT%20PLATINUM" target="_blank">اطلب عبر واتساب</a></article>
-<article class="product"><div class="ph"><div class="pi">⚽</div><span class="tag">SPORTS</span></div><h3>TOD</h3><p>باقات للموبايل والشاشة أو الاثنين.</p><div class="row"><span>موبايل</span><strong>15,000 د.ع</strong></div><div class="row"><span>شاشة</span><strong>20,000 د.ع</strong></div><div class="row"><span>شاشة + موبايل</span><strong>25,000 د.ع</strong></div><a class="order" href="https://wa.me/9647711608207?text=أريد%20TOD" target="_blank">اطلب عبر واتساب</a></article>
-</div></section>
-
-<section class="sec"><div class="head"><h2>🎮 الألعاب</h2><p>شحن سريع حسب الطلب</p></div><div class="products">
-<article class="product"><div class="ph"><div class="pi">PUBG</div><span class="tag">TOP UP</span></div><h3>PUBG MOBILE</h3><p>شحن شدات ببجي.</p><a class="order" href="https://wa.me/9647711608207?text=أريد%20شحن%20PUBG" target="_blank">اطلب الشحن</a></article>
-<article class="product"><div class="ph"><div class="pi">FF</div><span class="tag">TOP UP</span></div><h3>FREE FIRE</h3><p>شحن عملات فري فاير.</p><a class="order" href="https://wa.me/9647711608207?text=أريد%20شحن%20FREE%20FIRE" target="_blank">اطلب الشحن</a></article>
-<article class="product"><div class="ph"><div class="pi">🎲</div><span class="tag">TOP UP</span></div><h3>يلا لودو</h3><p>شحن الذهب والماس.</p><a class="order" href="https://wa.me/9647711608207?text=أريد%20شحن%20يلا%20لودو" target="_blank">اطلب الشحن</a></article>
-<article class="product"><div class="ph"><div class="pi">⚽</div><span class="tag">KONAMI</span></div><h3>PES / eFootball</h3><p>شحن eFootball حسب المتوفر.</p><a class="order" href="https://wa.me/9647711608207?text=أريد%20شحن%20eFootball" target="_blank">اطلب الشحن</a></article>
-</div></section>
-
-<section class="sec"><div class="head"><h2>💳 البطاقات والمحافظ</h2><p>تواصل معنا لمعرفة الفئات المتوفرة</p></div><div class="chips">
-<a class="chip" href="https://wa.me/9647711608207?text=Baly" target="_blank">Baly</a><a class="chip" href="https://wa.me/9647711608207?text=Zain%20Cash" target="_blank">Zain Cash</a><a class="chip" href="https://wa.me/9647711608207?text=AsiaPay" target="_blank">AsiaPay</a><a class="chip" href="https://wa.me/9647711608207?text=FastPay" target="_blank">FastPay</a><a class="chip" href="https://wa.me/9647711608207?text=Apple" target="_blank">Apple</a><a class="chip" href="https://wa.me/9647711608207?text=Google%20Play" target="_blank">Google Play</a><a class="chip" href="https://wa.me/9647711608207?text=بطاقات%20ألعاب" target="_blank">بطاقات ألعاب</a>
-</div></section>
-
-<section class="sec"><div class="head"><h2>🎬 أحدث الترفيه</h2><p>الأفلام والمسلسلات والرياضة</p></div><div class="media">
-<div><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80"><span>🎬 أحدث الأفلام</span></div>
-<div><img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=900&q=80"><span>📺 أحدث المسلسلات</span></div>
-<div><img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=900&q=80"><span>⚽ الرياضة</span></div>
-</div></section>
-
-<section class="sec"><div class="trust"><div><b>⚡</b><span>تفعيل سريع</span></div><div><b>🛡️</b><span>خدمة موثوقة</span></div><div><b>🎧</b><span>دعم فني</span></div><div><b>24/7</b><span>متابعة</span></div></div></section>
-
-<section class="contact"><div class="contactRow"><div><h2>جاهز تبدأ؟ 🚀</h2><p>راسلنا على واتساب واختر الخدمة المناسبة.</p></div><a class="wa" href="https://wa.me/9647711608207?text=السلام%20عليكم%20أريد%20طلب%20خدمة" target="_blank">🟢 واتساب الآن</a></div></section>
-
-<footer class="footer">© 2026 جميع الحقوق محفوظة • <b>تطوير وتصميم: فاطمة علي</b></footer>
-<nav class="nav"><a class="active" href="#"><span>⌂</span>الرئيسية</a><a href="#services"><span>▦</span>الخدمات</a><a href="#services"><span>🔥</span>العروض</a><a href="https://wa.me/9647711608207" target="_blank"><span>◉</span>واتساب</a></nav>
-
-<div class="musicPlayer" id="mp"><div class="disc"></div><div><b>موسيقى المتجر</b><small>إنت أول وآخر حب في حياتي</small></div><button class="stop" id="stop">إيقاف</button></div>
-<iframe id="yt" width="1" height="1" src="https://www.youtube.com/embed/j9zuCKcYzhk?enablejsapi=1&playsinline=1&controls=0" allow="autoplay" title="music"></iframe>
-</div>
 <script>
-const b=document.getElementById('musicBtn'),p=document.getElementById('mp'),s=document.getElementById('stop'),y=document.getElementById('yt');
-function play(){y.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}','*');b.textContent='♫ الموسيقى تعمل';p.classList.add('show')}
-function pause(){y.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}','*');b.textContent='♫ تشغيل الموسيقى';p.classList.remove('show')}
-b.onclick=()=>p.classList.contains('show')?pause():play();s.onclick=pause;
+let playing = false;
+
+function toggleMusic(){
+  const frame = document.getElementById("musicFrame");
+  const btn = document.getElementById("musicBtn");
+
+  if(!playing){
+    frame.src =
+      "https://www.youtube.com/embed/j9zuCKcYzhk?autoplay=1&loop=1&playlist=j9zuCKcYzhk";
+    btn.innerHTML = "⏸ إيقاف الموسيقى";
+    playing = true;
+  }else{
+    frame.src = "";
+    btn.innerHTML = "🔊 تشغيل الموسيقى";
+    playing = false;
+  }
+}
 </script>
-</body>
-</html>
